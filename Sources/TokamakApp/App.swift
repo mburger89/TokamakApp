@@ -9,6 +9,9 @@ struct ContentView: View {
             Button(action: { count += 1}) {
                 Text("click Me \(count)")
             }
+            Button(action: { count -= 1}) {
+                Text("decrement by 1")
+            }
         }
     }
 }
