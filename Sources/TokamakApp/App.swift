@@ -10,7 +10,7 @@ struct ContentView: View {
                 Text("click Me \(count)")
             }
             Button(action: { count -= 1}) {
-                Text("decrement by 1")
+                Text("decrement by 1").foregroundColor(.blue)
             }
         }
     }
